@@ -5,7 +5,7 @@ Whoosh Chrome (Codename: Gamma) V3
 Whoosh Deco (Codename: Delta) V4  
 Whoosh Eco (Codename: Epsilon) V5  
 Whoosh Fresh (Codename: Zeta) V6  
-Whoosh Gossamer (Codename: Eta) V7  
+Whoosh Geo (Codename: Eta) V7  
 Whoosh Horizon (Codename: Theta) V8  
 Whoosh I (Codename: Iota) V9  
 Whoosh J (Codename: Kappa) V10  
