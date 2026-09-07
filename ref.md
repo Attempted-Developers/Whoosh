@@ -1,14 +1,14 @@
 # Versions
-Whoosh Aero (Codename: Alpha)
-Whoosh Bloom (Codename: Beta)
-Whoosh Chrome (Codename: Gamma)
-Whoosh Deco (Codename: Delta)
-Whoosh Eco (Codename: Epsilon)
-Whoosh Fresh (Codename: Zeta)
-Whoosh Gossamer (Codename: Eta)
-Whoosh Horizon (Codename: Theta)
-Whoosh I (Codename: Iota)
-Whoosh J (Codename: Kappa)
-Whoosh K (Codename: Lambda)
-
+Whoosh Aero (Codename: Alpha) V0 to V1  
+Whoosh Bloom (Codename: Beta) V2  
+Whoosh Chrome (Codename: Gamma) V3  
+Whoosh Deco (Codename: Delta) V4  
+Whoosh Eco (Codename: Epsilon) V5  
+Whoosh Fresh (Codename: Zeta) V6  
+Whoosh Gossamer (Codename: Eta) V7  
+Whoosh Horizon (Codename: Theta) V8  
+Whoosh I (Codename: Iota) V9  
+Whoosh J (Codename: Kappa) V10  
+Whoosh K (Codename: Lambda) V11  
+  
 ...
