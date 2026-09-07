@@ -22,11 +22,11 @@ The structure of the file is simple:
 ```
 
 The ```<downloads>``` block is used to store all downloads, it's the main container of it all.  
-The ```<release>``` block represents a version of the release that contains all the informations about that same release inside.
-The ```<platform>``` block contains the information about the platform the service was released for with its version.
+The ```<release>``` block represents a version of the release that contains all the informations about that same release inside.  
+The ```<platform>``` block contains the information about the platform the service was released for with its version.  
 The ```<version>``` block contains information about the version of the service.  
-The ```<refName>``` block contains the reference name of the release.
-The ```<link>``` block contains the link to the download of that said release.
+The ```<refName>``` block contains the reference name of the release.  
+The ```<link>``` block contains the link to the download of that said release.  
 
 > [!NOTE]  
 > The version of the platform IS inside the ```<platform>``` block and not in the ```<version>``` block. It's important to not mix those two blocks up.
