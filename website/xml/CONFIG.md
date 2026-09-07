@@ -12,14 +12,17 @@ The structure of the file is simple:
 ```xml
 <downloads>
   <release>
-    <platform>iOS 11</platform>
+    <platform>Somewhere</platform>
     <version>1.0</version>
-    <refName>Aero Alpha</refName>
-    <link></link>
+    <refName>Something</refName>
+    <link>#</link>
   </release>
     ...  
 </downloads>
 ```
+<sub>*You can copy this block as a template*</sub>
+
+---
 
 The ```<downloads>``` block is used to store all downloads, it's the main container of it all.  
 The ```<release>``` block represents a version of the release that contains all the informations about that same release inside.  
