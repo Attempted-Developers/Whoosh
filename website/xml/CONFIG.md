@@ -29,4 +29,4 @@ The ```<refName>``` block contains the reference name of the release.
 The ```<link>``` block contains the link to the download of that said release.  
 
 > [!NOTE]  
-> The version of the platform IS inside the ```<platform>``` block and not in the ```<version>``` block. It's important to not mix those two blocks up.
+> The version of the platform **IS INSIDE** the ```<platform>``` block and not in the ```<version>``` block. It's important to not mix those two blocks up.
