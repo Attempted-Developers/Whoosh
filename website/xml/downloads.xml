@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <downloads>
   <release>
-    <platform>iOS 11</platform>
+    <platform>Web</platform>
     <version>1.0</version>
-    <refName>Aero Alpha</refName>
+    <refName>Amelie</refName>
     <link></link>
   </release>
 </downloads>
