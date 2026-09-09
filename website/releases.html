@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Whoosh</title>
+    <title>Releases</title>
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/aqua.css">
 </head>
 <body>
     <nav>
         <a href="index.html"><img src="assets/logos/logo-white.png" alt="Whoosh Logo" class="logo"></a>
-        <a href="download.html">Download</a>
+        <a href="releases.html">Releases</a>
         <a href="about/index.html">Documentation</a>
         <a href="help/index.html">Troubleshooting & Guides</a>
     </nav>
-    <div class="hero">
-        <h1 style="margin-left: 13px;">Download <img src="assets/logos/text-logo.png"></h1>
-        <p style="margin-left: 13px; margin-top: 0px;">Choose your platform.</p>
-        <div class="platforms">
-        <a href="platforms/iOS.html" class="ios"><img src=""><p>iOS</p></a>
-        <a href="platforms/Android.html" class="android"><img src=""><p>Android</p></a>
-        <button onclick="document.location.href='https://github.com/ccxrmo/Whoosh/wiki/Supported-Devices-&-OS'" class="secondary" style="align-self: center; font-size: 14px">Check if your <b style="background: linear-gradient(90deg, rgba(0, 138, 230, 1) 0%, rgba(56, 162, 194, 1) 23%, rgba(43, 194, 83, 1) 83%, rgba(7, 168, 50, 1) 100%);background-clip: text;color: transparent; font-weight: normal;">device</b> is compatible</button>
-        </div>
+    <div id="releases">
+        <table>
+            <thead>
+                <tr>
+                    <th>Reference Name</th>
+                    <th>Platform</th>
+                    <th>Version</th>
+                </tr>
+            </thead>
+            <tbody id="displayXML">
+                <!-- Releases will be dynamically inserted here -->
+            <script src="assets/scripts/releases.js"></script>
+            </tbody>
+        </table>
         
     </div>
     <footer>
