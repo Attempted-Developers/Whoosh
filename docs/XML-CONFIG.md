@@ -67,7 +67,7 @@ The ```<refName>``` block contains the reference name of the version.
 > [!NOTE]
 > This list may change with the variation of the files data.
 
-<sub>Marked elements may contain attributes.</sub>  
+<sub>Marked elements contain attributes.</sub>  
   
 ```<changelog>```: The main block of the Changelog file.  
 ```<changes>```: Contains details about the changes of an update.  
