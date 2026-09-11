@@ -20,7 +20,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Avenir, Arial, sans-serif;
     overflow-x: hidden;
 }
 
@@ -80,7 +80,7 @@ nav a:hover {
     padding: 20px;
     width: 100%;
     padding-bottom: 40px;
-    background: linear-gradient(180deg, rgba(0, 138, 230, 0.4) 0%, rgba(56, 162, 194, 0.2) 23%, rgba(43, 194, 83, 0.2) 83%, rgba(7, 168, 50, 0.1) 100%); 
+    background: linear-gradient(180deg, #ddd, rgba(0, 0, 0, 0) 100%); 
 }
 
 footer {
@@ -177,4 +177,16 @@ td a:hover {
     pointer-events: none;
     border-radius: 100px;
     z-index: -1;
+}
+
+/* FEATURES TAB */
+
+#features {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#select {
+    display: flex;
 }
