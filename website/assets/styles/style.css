@@ -1,6 +1,11 @@
 /* FONTS */
 
 @font-face {
+    font-family: 'MiiverseSymbols';
+    src: url('https://file.garden/aBYNKv3Z2mTSjZCk/MiiverseSymbols-Regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'ArialRoundedBold';
     src: url('../fonts/ArialRoundedBold.ttf') format('truetype');
 }
