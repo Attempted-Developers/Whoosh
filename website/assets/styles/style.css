@@ -10,6 +10,11 @@
     src: url('../fonts/ArialRoundedBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Medium.ttf') format('truetype');
+}
+
 /* STYLES */
 
 body {
@@ -114,27 +119,31 @@ table {
     padding: 10px;
     margin: auto;
     border-radius: 12px;
+    font-family: 'Avenir';
 }
 
 th, td {
     padding: 10px;
     text-align: left;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 th {
-    font-size: 14px;
+    font-size: 20px;
+    color: #1BAB94;
 }
 
 td {
-    color: #111;
+    color: #222;
     font-size: 13px;
     font-weight: light;
 }
 
 td a {
-    color: #111;
+    color: #222;
     text-decoration: none;
     transition: color 0.3s ease;
+    transition: all ease 0.3s;
 }
 
 td a:hover {

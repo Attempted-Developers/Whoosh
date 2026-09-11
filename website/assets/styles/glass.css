@@ -86,4 +86,40 @@
   top: -49px;
   left: 11px
 }
-  
+
+/* TILES */
+
+.glass-tile {
+  position: relative;
+  width: 90%;
+  box-shadow: inset 0px -4px 6px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 20px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #eee;
+  display: block;
+  transition: all ease 0.1s;
+}
+
+.glass-tile:after {
+  top: -50px;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 300px;
+}
+
+.glass-tile.black {
+  background: #474747;
+  color: #eee !important;;
+}
+
+.glass-tile.black:after {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.03) 100%);
+}
+
+474747
+666666
