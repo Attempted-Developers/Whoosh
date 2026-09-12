@@ -23,7 +23,7 @@ if [ ! -f ~/Desktop/Whoosh.desktop ]; then
     echo "[Desktop Entry]" > ~/Desktop/Whoosh.desktop
     echo "Name=Whoosh" >> ~/Desktop/Whoosh.desktop
     echo "Comment=Whoosh Internal Development" >> ~/Desktop/Whoosh.desktop
-    echo "Exec=/home/astrxbe/GitHub/Whoosh/whoosh.sh" >> ~/Desktop/Whoosh.desktop
+    echo "Exec=/home/astrxbe/GitHub/Whoosh/website/whoosh.sh" >> ~/Desktop/Whoosh.desktop
     echo "Icon=/home/astrxbe/GitHub/Whoosh/website/assets/logos/bubble-logo.png" >> ~/Desktop/Whoosh.desktop
     echo "Terminal=true" >> ~/Desktop/Whoosh.desktop
     echo "Type=Application" >> ~/Desktop/Whoosh.desktop
