@@ -113,81 +113,48 @@ footer p {
     padding-bottom: 20px
 }
 
-/* DOWNLOAD */
-
-table {
-    width: 95%;
-    padding: 10px;
-    margin: auto;
-    border-radius: 12px;
-    font-family: 'Avenir';
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
-}
-
-th {
-    font-size: 20px;
-    color: #1BAB94;
-}
-
-td {
-    color: #222;
-    font-size: 13px;
-    font-weight: light;
-}
-
-td a {
-    color: #222;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    transition: all ease 0.3s;
-}
-
-td a:hover {
-    text-decoration: underline;
-    color: #333;
-}
-
-/* DOCUMENTATION */
-
-.about {
-    padding: 20px;
-    background: radial-gradient(100% 100% at 50% 0%, rgba(113, 113, 113, 0.4) 50%, rgba(183, 183, 183, 0.4) 100%);
-    border-radius: 12px;
-    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 0, 0, 0.25);
-    filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.25));
-    margin: 20px auto;
-    width: 80%;
+.post {
+    min-width: 500px;
+    min-height: 100px;
     position: relative;
-    overflow: hidden;
+    margin: 20px!important;;
 }
 
-.about:after {
-    content: '';
-    position: absolute;
-    top: -40px;
-    left: 0;
+.post-body {
+    padding: 20px;
+    display: flex;
+
+}
+
+.post .interactions {
+    font-size: 10px;
     width: 100%;
-    height: 100px;
-    background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 100%);
-    border-radius: 12px;
-    pointer-events: none;
-    border-radius: 100px;
-    z-index: -1;
+    padding: 9px 2px;
 }
 
-/* FEATURES TAB */
-
-#features {
-    padding: 20px 0px;
-    display: flex;
-    justify-content: space-around;
+.interactions span {
+    padding: 0px 20px;
 }
 
-#select {
-    display: flex;
+.post hr {
+    width: 98%;
+    filter: brightness(1.2);
+    margin-top: 5px;
+    margin: auto;
+}
+
+.user-pfp {
+    width: 80px;
+    height: 80px;
+}
+
+.post-content {
+    padding-left: 15px;
+    z-index: 2;
+}
+
+.post-content p {
+    font-family: Helvetica;
+    font-size: 15px;
+    text-decoration:dotted;
 }

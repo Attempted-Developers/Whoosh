@@ -11,31 +11,32 @@
 <body>
     <nav>
         <a href="index.html"><img src="assets/logos/logo-white.png" alt="Whoosh Logo" class="logo"></a>
-        <a href="releases.html">Releases</a>
-        <a href="about/index.html">Documentation</a>
-        <a href="help/index.html">Troubleshooting &amp; Guides</a>
     </nav>
 
 
-<div class="hero">
-  <img src="assets/logos/text-logo.png" class="hero-logo">
-<p style="padding: 0px 30px;font-size: 16px;color: #666;text-shadow: 0px 2px rgba(0, 0, 0, 0.1);">Whoosh
- is a social media similar to Twitter / X and inspired by the now dead 
-Flirb Twitter revival that is compatible with almost <b style="background: linear-gradient(90deg, rgba(0, 138, 230, 1) 0%, rgba(56, 162, 194, 1) 23%, rgba(43, 194, 83, 1) 83%, rgba(7, 168, 50, 1) 100%);background-clip: text;color: transparent;">every device</b>.</p>
-<div id="select">
-  
-<button onclick="document.location.href='releases.html'" style="margin-left: 28px;font-size: 12px;color: black;" class="button-glass">Download <b style="background: linear-gradient(90deg, rgba(0, 138, 230, 1) 0%, rgba(56, 162, 194, 1) 23%, rgba(43, 194, 83, 1) 83%, rgba(7, 168, 50, 1) 100%);background-clip: text;color: transparent;">Whoosh</b> on your device.</button><button onclick="document.location.href='about/index.html'" style="font-size: 12px;color: black;" class="button-glass">About the app</button></div>
-</div>
 
-<div id="features">
-  <button class="button-glass big">
-    <p class="icon" style="color: #98E80D;">h</p>
-  <p>View the installation guide &amp; How to configure your profile</p></button><button class="button-glass big">
-    <p class="icon community" style="color: #3FC9D8;">M</p>
-  <p>Read the blog and the updates about Whoosh</p></button><button class="button-glass big">
-    <p class="icon" style="color: #0962C0;">R</p>
-  <p>Enter the Whoosh Web Portal</p></button>
-  
+<form>
+  <input type="text" placeholder="What's on your mind?">
+  <input type="submit" value="Post">
+</form>
+
+<div id="featured">
+  <div class="post glass-tile" id="#">
+    <div class="post-body">
+      <img class="user-pfp">
+      <div class="post-content">
+        <p>Hello! This is a test post!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="interactions" id="#">
+      
+      <span>Like <b id="likes"></b></span>
+      <span>Comment</span>
+      <span>Share</span>
+    </div>
+  </div>
+</div>
   
 </div><footer>
   <p style="padding-top: 40px;"><b style="background: linear-gradient(90deg, rgba(0, 138, 230, 1) 0%, rgba(56, 162, 194, 1) 23%, rgba(43, 194, 83, 1) 83%, rgba(7, 168, 50, 1) 100%);background-clip: text;color: transparent;opacity: 80%;">Whoosh</b> is a project made by © 2026 Attempted Developers.   </p>
