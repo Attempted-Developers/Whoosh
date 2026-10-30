@@ -20,6 +20,8 @@ Since the project started recently there isn't an actual **list** of devices whe
 - Android
 - Windows Mobile 8.1 and 10
 - Web
+- [Wii U](https://github.com/ccxrmo/whoosh-wiiu)
+  
 
 > [!NOTE]
 > Take in mind this is an hypothetical list, which means that some of the devices listed might not be supported later on development.
